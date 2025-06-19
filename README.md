@@ -73,8 +73,10 @@ CREATE TABLE OrderItems (
   }'
 ```
 # Realtidsfunktionalitet med WebSockets
-
-Med WebSockets kan vi få realtidsuppdateringar i appen: När en kund gör en beställning får baristan en notifikation direkt på skärmen, samtidigt som alla anslutna enheter uppdateras automatiskt. Om orderstatus ändras. Och när kaffet är klart får kunden en notis direkt. Dessutom kan vi visa levande statistik, som antalet väntande beställningar och beräknad väntetid, som uppdateras i realtid.
+   ```bash
+   npm install ws
+```
+Med WebSockets skulle vi kunna få realtidsuppdateringar i appen: När en kund gör en beställning får baristan en notifikation direkt på skärmen, samtidigt som alla anslutna enheter uppdateras automatiskt. Om orderstatus ändras. Och när kaffet är klart får kunden en notis direkt. Dessutom kan vi visa levande statistik, som antalet väntande beställningar och beräknad väntetid, som uppdateras i realtid.
 Detta är bra av flera anledningar: Användarna slipper manuellt uppdatera sidan samt  får omedelbara notiser när deras kaffe är klart, så de vet precis när de ska hämta det. För personalen blir arbetet smidigare eftersom nya beställningar dyker upp direkt på skärmen.
 
 # Mohammed Yasin: Utvecklare 
